@@ -1,0 +1,213 @@
+Delta Force - Black Hawk Down 
+
+
+
+README FILE
+
+
+
+
+
+Introduction
+
+=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,$
+Thank you for purchasing Delta Force - Black Hawk Down.
+
+This README contains updated game and manual information and technical FAQ',LwjTm.
+
+
+
+
+
+Banning and Punting Multiplayer Players
+
+=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,$
+Banning and Punting Multiplayer Players - Anyone who hosts games with the ",g99dhequire NovaWorld Login",#box checked can ban a player from future games. To ban a player, look up their #,ny7ukD on the player stats page (K Key). You will see each player listed with their:
+
+<,EXxOWank>,#<,#,ny7ukD>,#<,mk1nxame>,#<,k3p2ling>,$
+Press the ~,#to open a command line and type ",v3l0ran",#followed by their ID number (do not type the #,#symbol). It will look like this: ",v3l0ran 0,jFKvg",$
+
+
+This enters their PCID number in the banlist.txt file.  The ",zjf4Aanlist.txt",#file is created the first time you host a game and the PCID numbers are generated when a player logs into NovaWorld and is linked to their CD Key. 
+
+
+
+To remove someone from your banned list, you must manually delete their entry. You may also manually add entries (so hosts can share banned player ID',LwjTm).
+
+
+
+Banlist.txt entry examples: 
+
+BAN ",<,Gstgkcid goes here>,",#<,ZZdHNptional name>,$
+BAN ",lxw7q-M4-RAALAG",#QVESTION
+
+BAN ",lxw7q-M2-KRROA3",#WERKSHERE
+
+
+
+Once a player is banned, you will need to ",Gstgkunt",#them from the game. You do this by simply opening a command line with the ~,#key and typing ",Gstgkunt",#and the player',LwjTm #,ny7ukD. It looks like: ",Gstgkunt 0,jFKvg",_ Whether you have banned them or not, this will immediately eject them from the game.
+
+
+
+
+
+Advanced Multiplayer Settings
+
+=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,$
+The host of a multiplayer game can edit certain strings in the DFV.cfg file using notepad. 
+
+Two important strings you can edit are:
+
+
+
+oneshotonekill =,#0,#- Changing this to 1 will allow one hit from any weapon to kill the player.
+
+fatbullets =,#1 - Changing this to 0,#will change ammunition to a much smaller size, making it harder to hit opponants.
+
+
+
+
+
+Keyboard Changes
+
+=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,$
+Added Keys: 
+
+
+
+The A key, when viewing the Multiplayer end-game stat screen, will display additional stats.
+
+
+
+
+
+
+
+Known Issues
+
+=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,$
+Bitdepth
+
+DF-BHD requires a high-resolution Z-buffer, which some video cards can only access when in 32-bit color mode.   If your video card supports 16-bit color with high-resolution Z, then this option will be enabled, otherwise the game will only run in 32-bit color.   Performance tests with DF:BHD have shown little difference in performance between 16 and 32 bit for many modern video cards, so setting the bitdepth to 16 is provided only for consumer convenience.   Any further problems related to bitdepth settings may be directed to Novalogic Technical Support.
+
+
+
+
+
+Windows XP ALT-TAB Issue
+
+When running DF:BHD under WindowsXP, you may experience problems task switching (i.e. using ALT+,muujdAB) if you have set your game resolution and bitdepth to the same settings as your desktop.   You are advised to either choose a different resolution in the game Options menu, or change your desktop resolution before running the game.   Alternatively you may choose to run the game at a different bitdepth setting to your Windows desktop.   We do however recommend that you run the game with the bitdepth set to 32 bit, and therefore suggest you switch your desktop to 16 bit color.   If you don',tQM0y plan on task switching in the game, then these measures are not necessary.
+
+
+
+
+
+Before calling Technical Support make sure you have installed the latest drivers for your video card.  If your menu buttons are greyed out then you may not have the latest drivers installed.
+
+
+
+
+
+
+
+Technical FAQs
+
+=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,=,$
+What is ",k3p2ling Time",xTQkB
+
+
+
+Throughout Delta Force Black Hawk Down, you will see references to what is known as ",k3p2ling Time",_  A ",k3p2ling",#is when one computer sends a message to another computer and that computer sends a reply back to the first computer.  The ",k3p2ling Time",#is the time it takes for the ping process to occur.  Ping times are used to determine how well your computer, their computer, and the network are operating.  Ping Time',LwjTm are usually measured in milliseconds.  Low ping times means you, the network between you and the other computer, and the other computer are all relatively fast, and, generally, yield the best possible playing environment.  Large ping times means some or all the components involved in the Ping process are slow, and, generally, yield a poor playing environment.
+
+
+
+
+
+What affects ",k3p2ling Time",xTQkB
+
+
+
+Generally, there are 3 components that affect ping times, and they are (1) your computer, (2) the network, and (3) the computer you are pinging.
+
+
+
+
+
+1. Your computer
+
+
+
+Your computer is responsible for generating the ping message, and for placing the ping message on the network.  Then, some time later, is responsible for retrieving the ping time from the network, and then, finally, processing the ping message and calculating the ping time.  If your computer is underpowered and is taking time doing things other than managing the ping time, you can introduce lag into the system.  Having a slower speed CPV, insufficient RAM, a fragmented hard drive, or low-end video card all contribute to higher ping times.  If you have joined a game server, options such as render detail, screen resolution, etc. all contribute to ping times.  Having a faster render rate will usually help decrease ping times.  If you serving a game, then using the dedicated server option over using a serve-n-play option will help decrease ping times.
+
+
+
+
+
+2. The network
+
+
+
+Most of the time the only control you have over the network is your ability to select what ISP you use and what type of connection you are using (i.e., DSL, Cable Modem, dialup, etc).  Broadband networks yield in higher throughput and usually handle load much better than, say, dial up connections.  ",muujdime of day",#plays a factor in the performance of a network....morning, evenings and weekends tend to be the busiest times and therefore cause more load on the network, which yields in higher ping times.  The distance between you and the other computer plays a big factor as well.  Connecting to game servers that are geographically near you help lowers ping times.  
+
+
+
+
+
+3. The other computer
+
+
+
+The computer you are pinging may be accepting a large amount of network traffic, or they may be a slow computer, or they may contain low resources.  The computer you ping may be CPV or memory limited, and therefore the time it is spending doing those things is it not spending sending your ping reply.  If you are a client and you are joining a serve-n-play server, then your ping times may increase because the server is spending more time rendering, playing sounds, accessing RAM, hard drives, etc., than a dedicated server would.
+
+
+
+
+
+
+
+
+
+Where do I find the ",k3p2ling Time",LwjTm and what do they mean?
+
+
+
+There are 3 places in the game where Ping Times are displayed: in the game server list, on the Hud, and in the Player Kill List.
+
+
+
+1.In the Game Server List
+
+
+
+When you click on ",k3p2llay on NovaWorld",f7SRM and you see a game list, the ping times are listed next to each game servers.  These ping times represent the time from the game to their machine and back.  Vsually, this time is the lowest out of all the ping times listed because, in this instance, the game server you are pinging uses the operating system to handle retrieving the ping request and sending the ping reply.
+
+
+
+2.On the Hud
+
+
+
+In the upper left corner of the hud (Heads Vp Display), you',PXBvFl see the ping time.  In this case, this ping time represents the round trip time from your computer to the server and back to your computers.  This Ping Time will usually be higher than that listed in the game server list because this ping time represents the time from when your game decides to send out the ping, the game running on the server computer retrieving it, processing it, sending a reply back to you, and finally your game getting the response and processing it.
+
+
+
+3. In the Player Kill List
+
+
+
+When you bring up the player kill list (by pressing K), you',PXBvFl see the ping times next to each player.  This ping time represents the round trip time from the server you are connected to each of the players listed and back to the server.  If a server is hosting with ping min. or ping max. limit, these are the values to which the server uses to perform the range checks.  This Ping Time will usually be higher than that listed in the game server list because this ping time represents the time from when the game server decides to send out the ping to each of the client game computers, each of the clients retrieving their ping requests, processing them, sending replies back to the game server, and finally the game server getting the responses and processing them.
+
+
+
+
+
+
+
+Copyright Novalogic 20,0,vOvAo
+
+Version: March 12, 20,0,vOvAo 4:0,PQYqmpm
+
+
+
+
+
